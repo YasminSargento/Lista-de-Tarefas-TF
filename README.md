@@ -2,7 +2,7 @@
 Aplicação simples de gerenciamento de tarefas com funcionalidade de adicionar, marcar como concluída e excluir.
 
 
-#Gerenciador de Tarefas#
+#Gerenciador de Tarefas
 
 Este é um projeto simples de Gerenciador de Tarefas, desenvolvido com HTML, CSS e JavaScript. O aplicativo permite adicionar tarefas, marcá-las como concluídas e excluí-las. As tarefas são armazenadas no Local Storage, garantindo que elas permaneçam disponíveis mesmo após recarregar a página.
 
