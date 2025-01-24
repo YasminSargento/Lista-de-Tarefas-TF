@@ -1,7 +1,6 @@
 # Lista-de-Tarefas-TF
-Aplicação simples de gerenciamento de tarefas com funcionalidade de adicionar, marcar como concluída e excluir. As tarefas são armazenadas no Local Storage, garantindo persistência. Desenvolvido com HTML, CSS e JavaScript puro.
+Aplicação simples de gerenciamento de tarefas com funcionalidade de adicionar, marcar como concluída e excluir.
 
-Abra o arquivo index.html em qualquer navegador.
 
 Gerenciador de Tarefas
 
