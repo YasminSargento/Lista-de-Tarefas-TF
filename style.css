@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.containerHeader {
+  background-color: antiquewhite; /* Define a cor de fundo do cabeçalho */
+  width: 650px; /* Define a largura do container */
+  border-radius: 10px; /* Aplica bordas arredondadas */
+  padding: 20px; /* Define o preenchimento interno */
+  margin-left: auto; /* Alinha o container à esquerda automaticamente */
+  margin-right: auto; /* Alinha o container à direita automaticamente */
+  margin-top: 100px; /* Define a margem superior */
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao container */
+  text-align: center; /* Centraliza o texto dentro do container */
+}
+
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.207),
+      rgba(255, 255, 255, 0.196)
+    ),
+    url(iconBackground.png); /* Aplica um gradiente de fundo com imagem */
+  background-size: cover; /* Faz a imagem de fundo cobrir toda a tela */
+  background-attachment: fixed; /* Mantém a imagem de fundo fixa ao rolar a página */
+}
+
+.container {
+  background-color: antiquewhite; /* Define a cor de fundo do corpo */
+  width: 650px; /* Define a largura do container */
+  border-radius: 10px; /* Aplica bordas arredondadas */
+  padding: 20px; /* Define o preenchimento interno */
+  margin-left: auto; /* Alinha o container à esquerda automaticamente */
+  margin-right: auto; /* Alinha o container à direita automaticamente */
+  margin-top: 100px; /* Define a margem superior */
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao container */
+}
+
+.inputTarefa {
+  outline-color: transparent;
+  border: none; /* Remove a borda do campo de entrada */
+  border-radius: 5px; /* Aplica bordas arredondadas */
+  width: 400px; /* Define a largura do campo de entrada */
+  height: 40px; /* Define a altura do campo de entrada */
+  padding-left: 10px; /* Adiciona preenchimento à esquerda do campo */
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao campo de entrada */
+}
+
+.buttonTarefa {
+  width: 200px; /* Largura do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 5px; /* Aplica bordas arredondadas ao botão */
+  height: 40px; /* Define a altura do botão */
+  background-color: #ff8800; /* Define a cor de fundo do botão */
+  font-size: 17px; /* Define o tamanho da fonte do botão */
+  padding: 0; /* Remove o preenchimento padrão */
+  padding-left: 15px; /* Adiciona preenchimento à esquerda */
+  padding-right: 15px; /* Adiciona preenchimento à direita */
+  float: right; /* Alinha o botão à direita */
+  cursor: pointer; /* Define o cursor como ponteiro quando passar sobre o botão */
+  font-weight: 700; /* Deixa a fonte do botão em negrito */
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao botão */
+}
+
+.buttonTarefa:hover {
+  opacity: 0.8; /* Define a opacidade para 80% ao passar o mouse sobre o botão */
+}
+
+.buttonTarefa:active {
+  opacity: 0.6; /* Define a opacidade para 60% quando o botão é pressionado */
+}
+
+.listaTarefa {
+  width: 100%; /* Define a largura da lista */
+  list-style: none; /* Remove os marcadores da lista */
+  margin-top: 30px; /* Define a margem superior */
+}
+
+.tarefa {
+  background-color: #ff8800; /* Define a cor de fundo da tarefa */
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra à tarefa */
+  display: flex; /* Define o layout flexível para os itens da tarefa */
+  height: 50px; /* Define a altura da tarefa */
+  align-items: center; /* Alinha os itens ao centro verticalmente */
+  justify-content: space-between; /* Distribui o conteúdo com espaço entre os itens */
+  padding: 0 15px; /* Adiciona preenchimento à esquerda e direita da tarefa */
+  border-radius: 5px; /* Aplica bordas arredondadas à tarefa */
+  margin-bottom: 20px; /* Define a margem inferior entre as tarefas */
+  cursor: pointer; /* Define o cursor como ponteiro quando passar sobre a tarefa */
+}
+
+.tarefa:hover img {
+  opacity: 1; /* Define a opacidade das imagens dentro da tarefa para 100% ao passar o mouse */
+}
+
+.feito {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.308
+  ); /* Define o fundo como escuro para tarefas concluídas */
+  text-decoration: line-through; /* Aplica uma linha através do texto */
+  color: #f5f5f5; /* Define a cor do texto como cinza claro */
+}
+
+img {
+  height: 25px; /* Define a altura das imagens */
+  opacity: 0; /* Define a opacidade das imagens para 0% inicialmente */
+  transition: opacity 0.5s ease-in-out; /* Aplica uma transição suave de opacidade */
+}
+
+@media (pointer:none), (pointer:coarse) {
+
+  img {
+    opacity: 1; /* Define a opacidade das imagens para 100% */
+  }
+ 
+  .inputTarefa  {
+    outline-color: #ff8800; /* Define a cor da borda de foco como laranja */
+  }
+  
+}

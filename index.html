@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br">
+  <!-- Define o idioma da página como português do Brasil -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Faz com que a página se ajuste à largura da tela do dispositivo -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Vincula o arquivo de estilo CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gerenciador de tarefas</title>
+    <!-- Define o título da página -->
+  </head>
+
+  <header>
+    <div class="containerHeader">
+      <!-- Cria um container para o cabeçalho -->
+      <h1>GERENCIADOR DE TAREFAS</h1>
+      <!-- Exibe o título principal -->
+    </div>
+  </header>
+
+  <body>
+    <div class="container">
+      <!-- Cria um container para o corpo da página -->
+      <input class="inputTarefa" placeholder="Adicione uma tarefa" textarea="" />
+      <!-- Campo de entrada para adicionar uma nova tarefa -->
+      <button class="buttonTarefa">Adicionar</button>
+      <!-- Botão para adicionar a tarefa -->
+
+      <ul class="listaTarefa"></ul>
+      <!-- Lista onde as tarefas serão exibidas -->
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+  <!-- Vincula o arquivo de script JavaScript -->
+</html>
